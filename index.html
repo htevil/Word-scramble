@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Word Scramble</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="heading">
+                <img src="./assest/Word Scramblle.svg" alt="no heading">
+            </div>
+
+            <div id="word">
+
+            </div>
+
+            <div class="terms">
+                <div class="tries">
+                    <p id="dot">tries (0/5):</p> 
+                    <span id="dot-1"></span>
+                    <span id="dot-2"></span>
+                    <span id="dot-3"></span>
+                    <span id="dot-4"></span>
+                    <span id="dot-5"></span>
+                </div>
+                <div id="mistake">
+                    <p>mistake:</p>
+
+                </div>
+            </div>
+
+            <div id="input">
+            </div>
+
+            <div class="button">
+                <button id="random">
+                    Random
+                </button>
+                <button id="reset">
+                    Reset
+                </button>
+            </div>
+        </div>
+        <div class = "custom-alert" id="win-alert">Your guess is Correct🎉</div>
+        <div class = "custom-alert" id="lose-alert">Your guess is Wrong</div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    </body>
+
+</html>
